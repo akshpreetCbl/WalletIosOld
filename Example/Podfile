@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WalletIos_Example' do
+  pod 'WalletIos', :path => '../'
+
+  target 'WalletIos_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

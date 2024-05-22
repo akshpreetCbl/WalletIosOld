@@ -1,0 +1,6 @@
+framework module WalletIos {
+  umbrella header "WalletIos-umbrella.h"
+
+  export *
+  module * { export * }
+}
