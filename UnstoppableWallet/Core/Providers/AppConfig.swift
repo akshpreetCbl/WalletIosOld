@@ -52,7 +52,7 @@ struct AppConfig {
     }
 
     static var appName: String {
-        "Tipped Crypto"
+        "WalletIos"
 //        (Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String) ?? ""
     }
 
